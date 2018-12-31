@@ -168,16 +168,16 @@ class Ui_EmergencyApp(Saviour):
             except:
                 print("Sorry could not recognize your voice")
 
-        self.account_sid = 'ACb40c642c131701f34eb51e96eef82224'
-        self.auth_token = 'e67f5f56f57bad00f0c989df587e8712'
-        self.myPhone = '+918860707633'
-        self.TwilioNumber = '+14159039903'
+        self.account_sid = ''
+        self.auth_token = ''
+        self.myPhone = '' #Enter your own mobile number
+        self.TwilioNumber = ''  #Enter your Twilio Number
 
-        client = Client('ACb40c642c131701f34eb51e96eef82224', 'e67f5f56f57bad00f0c989df587e8712')
+        client = Client('#Enter accoundt_sid', ' #Enter auth_token')
 
         client.messages.create(
-            to='+918860707633',
-            from_='+14159039903',
+            to= '',
+            from_= '',
             body='{}'.format(self.text) + u'\U0001f680')
 
 
@@ -187,14 +187,14 @@ class Ui_EmergencyApp(Saviour):
         self.x = self.g.lat
         self.y = self.g.lng
 
-        self.account_sid = 'ACb40c642c131701f34eb51e96eef82224'
-        self.auth_token = 'e67f5f56f57bad00f0c989df587e8712'
-        self.myPhone = '+918860707633'
-        self.TwilioNumber = '+14159039903'
+        self.account_sid = ''
+        self.auth_token = ''
+        self.myPhone = '' #Enter your own mobile number
+        self.TwilioNumber = ''  #Enter your Twilio Number
 
-        client = Client('ACb40c642c131701f34eb51e96eef82224', 'e67f5f56f57bad00f0c989df587e8712')
+        client = Client('#Enter accoundt_sid', ' #Enter auth_token')
 
         client.messages.create(
-            to='+918860707633',
-            from_='+14159039903',
+            to= '',
+            from_= '',
             body='Help me; My location= https://www.latlong.net/c/?lat={}&long={}'.format(self.x, self.y) + u'\U0001f680')
