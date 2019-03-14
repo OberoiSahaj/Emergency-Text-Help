@@ -178,7 +178,8 @@ class Ui_EmergencyApp(Saviour):
         client.messages.create(
             to= '',
             from_= '',
-            body='{}'.format(self.text) + u'\U0001f680')
+              body='{} +  My location= https://www.latlong.net/c/?lat={}&long={}'.format(self.text, self.x, self.y) + u'\U0001f680')
+
 
 
     def help_me2(self):
