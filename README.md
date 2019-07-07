@@ -10,4 +10,4 @@ Another feature has been added in which along with your message, your location a
 
 We are exploring alternative for Twilio since trial version limits its use for only 9am to 9pm and also limits the receivers of message and the paid version is quite expensive for us.
 
-*The  work is still in progress as we're trying to bring more features and finally bring it on Android. We don't know Android yet so it may take time.*
+### The  work is still in progress as we're trying to bring more features and finally bring it on Android.
